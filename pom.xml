@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-         <sonar.token>sqa_bf0057d8c9db5231f247027f38314a00151a5cdc</sonar.token>
+         <sonar.token>SONAR_TOKEN</sonar.token>
     </properties>
 
     
