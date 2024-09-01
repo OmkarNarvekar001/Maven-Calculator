@@ -21,6 +21,13 @@
         <version>4.13.2</version>
         <scope>test</scope>
     </dependency>
+    <!-- SonarQube Dependency -->
+    <dependency>
+        <groupId>org.sonarsource.sonarqube</groupId>
+        <artifactId>sonarqube</artifactId>
+        <version>7.0</version>
+        <type>pom</type>
+    </dependency>
 </dependencies>
 
 </project>
