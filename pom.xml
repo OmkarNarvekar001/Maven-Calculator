@@ -25,9 +25,15 @@
     </dependency>
     <!-- SonarQube Dependency -->
     <dependency>
-    <groupId>org.sonarsource.scanner.maven</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>4.0.0.4121</version>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>4.0.0.4121</version>
+    </dependency>
+    <!-- Jacaco Code coverage Dependency -->
+    <dependency>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.12</version>
 </dependency>
 </dependencies>
 
