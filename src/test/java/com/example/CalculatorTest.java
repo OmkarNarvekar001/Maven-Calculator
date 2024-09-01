@@ -16,5 +16,18 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assertEquals(1, calculator.subtract(3, 2));
     }
+
+    @Test
+    public void testMultiply() {
+        Calculator calculator = new Calculator();
+        assertEquals(6, calculator.mult(3, 2));
+    }
+
+    @Test
+    public void testDivide() {
+        Calculator calculator = new Calculator();
+        assertEquals(5, calculator.divd(10, 2));
+    }
+
 }
 
