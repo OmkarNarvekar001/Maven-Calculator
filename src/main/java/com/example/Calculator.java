@@ -25,9 +25,11 @@ public class Calculator {
         System.out.println();
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter two numbers: ");
+        System.out.print("Enter 1st number: ");
         int a = sc.nextInt();
+        System.out.print("Enter 1st number: ");
         int b = sc.nextInt();
+        System.out.println("Compiling the results.....");
 
         Ops ops = new Ops(); // create object
 
