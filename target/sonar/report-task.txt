@@ -1,0 +1,6 @@
+projectKey=maven_java_calculator
+serverUrl=http://localhost:9000
+serverVersion=10.5.1.90531
+dashboardUrl=http://localhost:9000/dashboard?id=maven_java_calculator
+ceTaskId=0d41942f-1178-45d9-8a11-d49f9d2e6c38
+ceTaskUrl=http://localhost:9000/api/ce/task?id=0d41942f-1178-45d9-8a11-d49f9d2e6c38
