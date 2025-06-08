@@ -1,40 +1,44 @@
 📌 Maven Calculator
+
 A personal project to learn and implement CI/CD pipelines, DevOps practices, and Java/Maven project workflows.
 
 📌 Features
-Built using Java with a command-line interface
 
-Managed with Maven for build and dependency control
+1. Built using Java with a command-line interface
 
-Tested with JUnit for unit testing
+2. Managed with Maven for build and dependency control
 
-Automated build and test using Jenkins CI/CD pipelines
+3. Tested with JUnit for unit testing
 
-Integrated SonarQube for static code analysis
+4. Automated build and test using Jenkins CI/CD pipelines
 
-Designed for hands-on learning of DevOps and CI/CD concepts
+5. Integrated SonarQube for static code analysis
 
+6. Designed for hands-on learning of DevOps and CI/CD concepts
 
-🛠️ Tech Stack
-Java – Core application logic
+📌 Tech Stack
 
-Maven – Build tool and dependency management
+1. Java – Core application logic
 
-JUnit – Testing framework
+2. Maven – Build tool and dependency management
 
-Jenkins – Continuous Integration / Continuous Delivery
+3. JUnit – Testing framework
 
-SonarQube – Code quality analysis
+4. Jenkins – Continuous Integration / Continuous Delivery
 
-Git/GitHub – Version control and project hosting
+5. SonarQube – Code quality analysis
+
+6. Git/GitHub – Version control and project hosting
+
 
 🎯 Learning Goals
-Understand Java + Maven project structure
 
-Implement unit testing using JUnit
+1. Understand Java + Maven project structure
 
-Automate build/test with Jenkins pipelines
+2. Implement unit testing using JUnit
 
-Analyze code quality using SonarQube
+3. Automate build/test with Jenkins pipelines
 
-Explore real-world DevOps & CI/CD workflows
+4. Analyze code quality using SonarQube
+
+5. Explore real-world DevOps & CI/CD workflows
