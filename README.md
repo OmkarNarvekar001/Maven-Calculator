@@ -16,21 +16,14 @@ Designed for hands-on learning of DevOps and CI/CD concepts
 
 🛠️ Tech Stack
 Java – Core application logic
-
 Maven – Build tool and dependency management
-
 JUnit – Testing framework
-
 Jenkins – Continuous Integration / Continuous Delivery
-
 SonarQube – Code quality analysis
-
 Git/GitHub – Version control and project hosting
 
 📁 Project Structure
-swift
-Copy
-Edit
+
 Maven-Calculator/
 ├── src/
 │   ├── main/java/com/calculator/Calculator.java
@@ -38,13 +31,13 @@ Maven-Calculator/
 ├── pom.xml
 ├── README.md
 └── Jenkinsfile (optional)
+
 ⚙️ Setup Instructions
 1. Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/OmkarNarvekar001/Maven-Calculator.git
 cd Maven-Calculator
+
 2. Install Requirements
 Java JDK 17+
 
@@ -62,25 +55,21 @@ Copy
 Edit
 mvn clean install
 4. Run Unit Tests
-bash
-Copy
-Edit
 mvn test
 5. Run the Application
-bash
-Copy
-Edit
+
 java -cp target/maven-calculator-1.0-SNAPSHOT.jar com.calculator.Calculator
+Make sure the package and class name match your project.
+
 🔁 CI/CD Pipeline (Optional)
 If you're using Jenkins for CI/CD:
 
 Create a new Pipeline project in Jenkins
 
+Add your GitHub repository URL
+
 Use the following basic Jenkinsfile:
 
-groovy
-Copy
-Edit
 pipeline {
     agent any
     stages {
@@ -115,4 +104,5 @@ Analyze code quality using SonarQube
 Explore real-world DevOps & CI/CD workflows
 
 🤝 Contributing
-This is a self-learning project. If you'd like to contribute, feel free to fork the repo and open a pull request!
+This is a self-learning project.
+Feel free to fork the repo, improve it, and open a pull request.
