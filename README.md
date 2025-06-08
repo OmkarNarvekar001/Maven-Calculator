@@ -28,7 +28,7 @@ A personal project to learn and implement CI/CD pipelines, DevOps practices, and
 
 5. SonarQube – Code quality analysis
 
-6. Git/GitHub – Version control and project hosting
+6. Git/GitHub – Version control
 
 
 🎯 Learning Goals
