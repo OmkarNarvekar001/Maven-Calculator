@@ -1,34 +1,36 @@
 📌 Maven Calculator
-A personal project built to understand and implement CI/CD practices using a Java-based command-line calculator.
+A personal project to learn and implement CI/CD pipelines, DevOps practices, and Java/Maven project workflows.
 
 ✅ Features
-🔢 Built with Java for core functionality
+Built using Java with a command-line interface
 
-⚙️ Managed project dependencies with Maven
+Managed with Maven for build and dependency control
 
-🧪 Added unit tests using JUnit
+Tested with JUnit for unit testing
 
-🔄 Set up Jenkins CI/CD pipeline to automate build and test processes
+Automated build and test using Jenkins CI/CD pipelines
 
-🧼 Integrated SonarQube for code quality analysis
+Integrated SonarQube for static code analysis
 
-📚 Designed for learning DevOps workflows
+Designed for hands-on learning of DevOps and CI/CD concepts
 
-🔧 Tech Stack
-Java – Application logic
+🛠️ Tech Stack
+Java – Core application logic
 
-Maven – Build tool & dependency manager
+Maven – Build tool and dependency management
 
-JUnit – Unit testing
+JUnit – Testing framework
 
-Jenkins – CI/CD pipeline automation
+Jenkins – Continuous Integration / Continuous Delivery
 
-SonarQube – Static code analysis
+SonarQube – Code quality analysis
 
-Git/GitHub – Version control & hosting
+Git/GitHub – Version control and project hosting
 
-📁 Folder Structure
-
+📁 Project Structure
+swift
+Copy
+Edit
 Maven-Calculator/
 ├── src/
 │   ├── main/java/com/calculator/Calculator.java
@@ -36,38 +38,49 @@ Maven-Calculator/
 ├── pom.xml
 ├── README.md
 └── Jenkinsfile (optional)
-
-⚙️ How to Set Up Locally
-
-📥 Clone the repository
-
-
+⚙️ Setup Instructions
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/OmkarNarvekar001/Maven-Calculator.git
 cd Maven-Calculator
-
-📋 Install prerequisites
-
+2. Install Requirements
 Java JDK 17+
+
 Apache Maven
+
 Git
-(Optional) Jenkins & SonarQube
 
-🔨 Build the project
+(Optional) Jenkins
 
+(Optional) SonarQube
+
+3. Build the Project
+bash
+Copy
+Edit
 mvn clean install
-
-🧪 Run unit tests
-
+4. Run Unit Tests
+bash
+Copy
+Edit
 mvn test
-
-▶️ Run the calculator
-
+5. Run the Application
+bash
+Copy
+Edit
 java -cp target/maven-calculator-1.0-SNAPSHOT.jar com.calculator.Calculator
+🔁 CI/CD Pipeline (Optional)
+If you're using Jenkins for CI/CD:
 
-🔄 CI/CD Pipeline (Optional)
-Set up a Jenkins pipeline and connect it to your GitHub repo
-Use a basic Jenkinsfile like:
+Create a new Pipeline project in Jenkins
 
+Use the following basic Jenkinsfile:
+
+groovy
+Copy
+Edit
 pipeline {
     agent any
     stages {
@@ -88,17 +101,18 @@ pipeline {
         }
     }
 }
+Make sure Jenkins is configured with Maven and SonarQube plugins.
 
-🎯 What I Learned
-📦 Structuring Java applications with Maven
+🎯 Learning Goals
+Understand Java + Maven project structure
 
-🧪 Writing unit tests with JUnit
+Implement unit testing using JUnit
 
-🔁 Automating builds and tests using Jenkins
+Automate build/test with Jenkins pipelines
 
-🧼 Monitoring code quality with SonarQube
+Analyze code quality using SonarQube
 
-🚀 Applying DevOps & CI/CD practices to Java development
+Explore real-world DevOps & CI/CD workflows
 
-🤝 Contributions
-This project was built for personal learning. Feel free to fork the repository and suggest improvements via pull requests!
+🤝 Contributing
+This is a self-learning project. If you'd like to contribute, feel free to fork the repo and open a pull request!
