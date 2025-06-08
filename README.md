@@ -31,6 +31,7 @@ Git/GitHub – Version control and project hosting
 
 🎯 Learning Goals
 Understand Java + Maven project structure
+
 Implement unit testing using JUnit
 Automate build/test with Jenkins pipelines
 Analyze code quality using SonarQube
