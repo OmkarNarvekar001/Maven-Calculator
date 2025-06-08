@@ -1,98 +1,55 @@
-📌 Project Overview
-This is a personal learning project developed to gain hands-on experience with CI/CD pipelines, DevOps practices, and Java development workflows. The core application is a simple command-line calculator written in Java, structured as a Maven project. It includes unit tests with JUnit, a Jenkins pipeline for CI/CD, and uses SonarQube for static code analysis.
+📌 Maven Calculator
+A personal project built to understand and implement CI/CD practices using a Java-based command-line calculator.
 
-This project serves as a practical implementation of how Java-based applications can be built, tested, and analyzed automatically using modern DevOps tools.
+✅ Features
+🔢 Built with Java for core functionality
+⚙️ Managed project dependencies with Maven
+🧪 Added unit tests using JUnit
+🔄 Set up Jenkins CI/CD pipeline to automate build and test processes
+🧼 Integrated SonarQube for code quality analysis
+📚 Designed for learning DevOps workflows
 
-🚀 Features
-Java-based CLI calculator with basic arithmetic operations
+🔧 Tech Stack
+Java – Application logic
+Maven – Build tool & dependency manager
+JUnit – Unit testing
+Jenkins – CI/CD pipeline automation
+SonarQube – Static code analysis
+Git/GitHub – Version control & hosting
 
-Project structured using Maven
-
-Unit testing with JUnit
-
-CI/CD pipeline using Jenkins (automated build + test)
-
-Code quality analysis with SonarQube
-
-Designed as a sandbox to experiment with DevOps workflows
-
-🛠️ Tech Stack
-Tool/Technology	Purpose
-Java	Core language for application logic
-Maven	Build automation, dependency management
-JUnit	Unit testing framework
-Jenkins	Continuous Integration/Delivery
-SonarQube	Static code analysis and quality checks
-Git/GitHub	Source control and project hosting
-
-🧑‍💻 Project Structure
-bash
-Copy
-Edit
+📁 Folder Structure
 Maven-Calculator/
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── com/calculator/
-│   │           └── Calculator.java
-│   └── test/
-│       └── java/
-│           └── com/calculator/
-│               └── CalculatorTest.java
+│   ├── main/java/com/calculator/Calculator.java
+│   └── test/java/com/calculator/CalculatorTest.java
 ├── pom.xml
-├── Jenkinsfile (optional)
-└── README.md
-⚙️ Setup Instructions
-Follow these steps to clone, build, and run the project locally:
+├── README.md
+└── Jenkinsfile (optional)
 
-1. 📥 Clone the Repository
-bash
-Copy
-Edit
+⚙️ How to Set Up Locally
+📥 Clone the repository
 git clone https://github.com/OmkarNarvekar001/Maven-Calculator.git
 cd Maven-Calculator
-2. 🧰 Prerequisites
-Ensure the following are installed on your machine:
 
-Java JDK (17 or higher recommended)
-
+📋 Install prerequisites
+Java JDK 17+
 Apache Maven
-
 Git
+(Optional) Jenkins & SonarQube
 
-Jenkins (for CI/CD pipeline)
-
-SonarQube (optional, for code analysis)
-
-3. 🔨 Build the Project
-bash
-Copy
-Edit
+🔨 Build the project
 mvn clean install
-4. 🧪 Run Unit Tests
-bash
-Copy
-Edit
+
+🧪 Run unit tests
 mvn test
-5. ▶️ Run the Application
-bash
-Copy
-Edit
+
+▶️ Run the calculator
 java -cp target/maven-calculator-1.0-SNAPSHOT.jar com.calculator.Calculator
-Replace com.calculator.Calculator with your actual main class if different.
 
 🔄 CI/CD Pipeline (Optional)
-If you'd like to automate the build & test process:
+Set up a Jenkins pipeline and connect it to your GitHub repo
 
-Install Jenkins and configure a new freestyle or pipeline project.
-
-Add your GitHub repository URL to Jenkins.
-
-Use the following simple Jenkinsfile (optional):
-
-groovy
-Copy
-Edit
+Use a basic Jenkinsfile like:
 pipeline {
     agent any
     stages {
@@ -108,23 +65,18 @@ pipeline {
         }
         stage('SonarQube Analysis') {
             steps {
-                // Requires proper SonarQube plugin & config
                 sh 'mvn sonar:sonar'
             }
         }
     }
 }
-Integrate SonarQube with Jenkins to run code quality analysis automatically.
 
-🎯 Learning Outcomes
-Understood how Java + Maven projects are structured and managed
-
-Built a functioning CI/CD pipeline using Jenkins
-
-Automated unit tests and static analysis as part of the DevOps workflow
-
-Gained hands-on exposure to integrating SonarQube with a Maven project
+🎯 What I Learned
+📦 Structuring Java applications with Maven
+🧪 Writing unit tests with JUnit
+🔁 Automating builds and tests using Jenkins
+🧼 Monitoring code quality with SonarQube
+🚀 Applying DevOps & CI/CD practices to Java development
 
 🤝 Contributions
-This project was built for self-learning purposes, but if you find it helpful or want to contribute enhancements, feel free to fork the repo and open a pull request!
-
+This project was built for personal learning. Feel free to fork the repository and suggest improvements via pull requests!
