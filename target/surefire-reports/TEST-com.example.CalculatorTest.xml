@@ -3,7 +3,6 @@
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sonar.host.url" value="http://localhost:9000"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="D:\maven_java_calculator\target\test-classes;D:\maven_java_calculator\target\classes;C:\Users\User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\4.0.0.4121\sonar-maven-plugin-4.0.0.4121.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\User\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.16.3.1081\sonar-scanner-api-2.16.3.1081.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\User\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.12\jacoco-maven-plugin-0.8.12.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\User\.m2\repository\org\apache\maven\shared\file-management\3.1.0\file-management-3.1.0.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\User\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\User\.m2\repository\org\jacoco\org.jacoco.agent\0.8.12\org.jacoco.agent-0.8.12-runtime.jar;C:\Users\User\.m2\repository\org\jacoco\org.jacoco.core\0.8.12\org.jacoco.core-0.8.12.jar;C:\Users\User\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\User\.m2\repository\org\ow2\asm\asm-commons\9.7\asm-commons-9.7.jar;C:\Users\User\.m2\repository\org\ow2\asm\asm-tree\9.7\asm-tree-9.7.jar;C:\Users\User\.m2\repository\org\jacoco\org.jacoco.report\0.8.12\org.jacoco.report-0.8.12.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\Java17\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire5336126603902665261\surefirebooter-20250608113207345_3.jar C:\Users\User\AppData\Local\Temp\surefire5336126603902665261 2025-06-08T11-32-07_197-jvmRun1 surefire-20250608113207345_1tmp surefire_0-20250608113207345_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire9356062627446257615\surefirebooter-20250608125236907_3.jar C:\Users\User\AppData\Local\Temp\surefire9356062627446257615 2025-06-08T12-52-36_759-jvmRun1 surefire-20250608125236907_1tmp surefire_0-20250608125236907_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\maven_java_calculator\target\test-classes;D:\maven_java_calculator\target\classes;C:\Users\User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\4.0.0.4121\sonar-maven-plugin-4.0.0.4121.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\User\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.16.3.1081\sonar-scanner-api-2.16.3.1081.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\User\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.12\jacoco-maven-plugin-0.8.12.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\User\.m2\repository\org\apache\maven\shared\file-management\3.1.0\file-management-3.1.0.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\User\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\User\.m2\repository\org\jacoco\org.jacoco.agent\0.8.12\org.jacoco.agent-0.8.12-runtime.jar;C:\Users\User\.m2\repository\org\jacoco\org.jacoco.core\0.8.12\org.jacoco.core-0.8.12.jar;C:\Users\User\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\User\.m2\repository\org\ow2\asm\asm-commons\9.7\asm-commons-9.7.jar;C:\Users\User\.m2\repository\org\ow2\asm\asm-tree\9.7\asm-tree-9.7.jar;C:\Users\User\.m2\repository\org\jacoco\org.jacoco.report\0.8.12\org.jacoco.report-0.8.12.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire5336126603902665261\surefirebooter-20250608113207345_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire9356062627446257615\surefirebooter-20250608125236907_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -44,14 +43,12 @@
     <property name="localRepository" value="C:\Users\User\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
-    <property name="sonar.token" value="squ_a29fa4b668813778dd9442ea1fbaee9adfcb26a8"/>
     <property name="java.version" value="17.0.12"/>
     <property name="user.dir" value="D:\maven_java_calculator"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="sonar.projectKey" value="maven_java_calculator"/>
     <property name="java.library.path" value="D:\Java17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\User\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python39\;C:\Program Files\Scripts\;C:\Program Files\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\EMC\;C:\Program Files\Python39;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\MongoDB\Server\5.0\bin;D:\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Python39;C:\Program Files\Python39\Scripts;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\AdvDevOps\Teraform;C:\Users\User\AppData\Local\Microsoft\WindowsApps;D:\Flutter\flutter_windows_2.8.1-stable\flutter\bin;C:\Program Files\Java\jre1.8.0_321\bin;C:\Program Files\Java\jdk1.8.0_321\bin;D:\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAdd" classname="com.example.CalculatorTest" time="0.002"/>
+  <testcase name="testAdd" classname="com.example.CalculatorTest" time="0.003"/>
   <testcase name="testSubtract" classname="com.example.CalculatorTest" time="0.0"/>
   <testcase name="testDivide" classname="com.example.CalculatorTest" time="0.0"/>
   <testcase name="testMultiply" classname="com.example.CalculatorTest" time="0.0"/>
