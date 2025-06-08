@@ -7,27 +7,25 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        Calculator calculator = new Calculator();
-        assertEquals(9, calculator.add(6, 3));
+        Ops ops = new Ops();
+        assertEquals(9, ops.add(6, 3));
     }
 
     @Test
     public void testSubtract() {
-        Calculator calculator = new Calculator();
-        assertEquals(6, calculator.subtract(8, 2));
+        Ops ops = new Ops();
+        assertEquals(6, ops.subtract(8, 2));
     }
 
     @Test
     public void testMultiply() {
-        Calculator calculator = new Calculator();
-        assertEquals(15, calculator.mult(3, 5));
+        Ops ops = new Ops();
+        assertEquals(15, ops.mult(3, 5));
     }
 
     @Test
     public void testDivide() {
-        Calculator calculator = new Calculator();
-        assertEquals(5, calculator.divd(10, 2));
+        Ops ops = new Ops();
+        assertEquals(5, ops.divd(10, 2));
     }
-
 }
-
