@@ -1,6 +1,7 @@
 📌 Maven Calculator
 A personal project to learn and implement CI/CD pipelines, DevOps practices, and Java/Maven project workflows.
 
+
 ✅ Features
 Built using Java with a command-line interface
 
@@ -13,6 +14,7 @@ Automated build and test using Jenkins CI/CD pipelines
 Integrated SonarQube for static code analysis
 
 Designed for hands-on learning of DevOps and CI/CD concepts
+
 
 🛠️ Tech Stack
 Java – Core application logic
