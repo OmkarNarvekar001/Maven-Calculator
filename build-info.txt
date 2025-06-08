@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 Build Number: 14 
+=======
+Build Number: 35 
+>>>>>>> 7d4450c88e720d47123c41b2ffb071d890639b7a
 Build Status: SUCCESS 
 Jenkins Job "Maven-Calculator" triggered 
