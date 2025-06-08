@@ -1,8 +1,7 @@
 📌 Maven Calculator
 A personal project to learn and implement CI/CD pipelines, DevOps practices, and Java/Maven project workflows.
 
-
-✅ Features
+📌 Features
 Built using Java with a command-line interface
 
 Managed with Maven for build and dependency control
@@ -30,7 +29,6 @@ SonarQube – Code quality analysis
 Git/GitHub – Version control and project hosting
 
 🎯 Learning Goals
-
 Understand Java + Maven project structure
 
 Implement unit testing using JUnit
